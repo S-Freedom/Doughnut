@@ -39,8 +39,13 @@
 
     // 贝塞尔取现
     CGContextSetStrokeColorWithColor(ctx, [UIColor blueColor].CGColor);
-    UIBezierPath *path = [UIBezierPath bezierPathWithRect:CGRectMake(100, 100, 100, 100)];
-    [path stroke];
+    UIBezierPath *berzierPath1 = [UIBezierPath bezierPathWithRect:CGRectMake(100, 100, 100, 100)];
+    [berzierPath1 stroke];
+    
+    CGContextSetStrokeColorWithColor(ctx, [UIColor brownColor].CGColor);
+    CGContextSetLineWidth(ctx, 10.0f);
+    UIBezierPath *bezierPath2 = [UIBezierPath bezierPathWithArcCenter:CGPointMake(200, 300) radius:50 startAngle:- M_PI_2 endAngle:-M_PI_2 - 0.0000000001 clockwise:YES];
+    [bezierPath2 stroke];
 }
 
 @end
