@@ -20,6 +20,7 @@
     CGFloat r = 50;
     CGFloat space = 0.05;
     
+    // 画四个圆环
     CGContextSetStrokeColorWithColor(ctx, [UIColor blackColor].CGColor);
     CGContextAddArc(ctx, 100, 100, r, - M_PI_2, M_PI_4, 0);
     CGContextStrokePath(ctx);
@@ -35,6 +36,11 @@
     CGContextSetStrokeColorWithColor(ctx, [UIColor orangeColor].CGColor);
     CGContextAddArc(ctx, 100, 100, r, M_PI_4 + 1.5 + space, - M_PI_2 - space, 0);
     CGContextStrokePath(ctx);
+
+    // 贝塞尔取现
+    CGContextSetStrokeColorWithColor(ctx, [UIColor blueColor].CGColor);
+    UIBezierPath *path = [UIBezierPath bezierPathWithRect:CGRectMake(100, 100, 100, 100)];
+    [path stroke];
 }
 
 @end
