@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DoughnutView.h"
 
 @interface ViewController ()
 
@@ -16,12 +17,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
+    DoughnutView *doughnutView = [[DoughnutView alloc]initWithFrame:self.view.bounds];
+    doughnutView.center = self.view.center;
+    doughnutView.backgroundColor = [UIColor whiteColor];
+    [self.view addSubview:doughnutView];
+    
 }
 
 @end

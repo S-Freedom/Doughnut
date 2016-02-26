@@ -15,6 +15,7 @@
 		7B634A9B1C8049B300EF803B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B634A991C8049B300EF803B /* LaunchScreen.storyboard */; };
 		7B634AA61C8049B300EF803B /* DoughnutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B634AA51C8049B300EF803B /* DoughnutTests.m */; };
 		7B634AB11C8049B300EF803B /* DoughnutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B634AB01C8049B300EF803B /* DoughnutUITests.m */; };
+		7B634AC01C804AF400EF803B /* DoughnutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B634ABF1C804AF400EF803B /* DoughnutView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		7B634AAC1C8049B300EF803B /* DoughnutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoughnutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B634AB01C8049B300EF803B /* DoughnutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoughnutUITests.m; sourceTree = "<group>"; };
 		7B634AB21C8049B300EF803B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B634ABE1C804AF400EF803B /* DoughnutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoughnutView.h; sourceTree = "<group>"; };
+		7B634ABF1C804AF400EF803B /* DoughnutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoughnutView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				7B634A8F1C8049B300EF803B /* AppDelegate.m */,
 				7B634A911C8049B300EF803B /* ViewController.h */,
 				7B634A921C8049B300EF803B /* ViewController.m */,
+				7B634ABE1C804AF400EF803B /* DoughnutView.h */,
+				7B634ABF1C804AF400EF803B /* DoughnutView.m */,
 				7B634A941C8049B300EF803B /* Main.storyboard */,
 				7B634A971C8049B300EF803B /* Assets.xcassets */,
 				7B634A991C8049B300EF803B /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				7B634A931C8049B300EF803B /* ViewController.m in Sources */,
 				7B634A901C8049B300EF803B /* AppDelegate.m in Sources */,
+				7B634AC01C804AF400EF803B /* DoughnutView.m in Sources */,
 				7B634A8D1C8049B300EF803B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
